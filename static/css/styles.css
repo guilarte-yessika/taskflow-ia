@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+input,
+textarea,
+select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #34495e;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.priority-high {
+    background: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.priority-medium {
+    background: #f39c12;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.priority-low {
+    background: #27ae60;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.action-btn {
+    margin: 2px;
+    padding: 8px;
+}
+
+.edit-btn {
+    background: #f39c12;
+}
+
+.delete-btn {
+    background: #e74c3c;
+}
+
+.status-pending {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.status-progress {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.status-done {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    table {
+        font-size: 12px;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+}
