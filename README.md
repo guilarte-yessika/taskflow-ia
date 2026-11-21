@@ -1,4 +1,4 @@
-TaskFlow IA
+[TaskFlow IA
 Aplicación web desarrollada como parte de la asignatura:
 
 Generalización de Código de Automatización en Desarrollo de Software con IA
@@ -30,4 +30,4 @@ python app.py
 Acceso
 http://localhost:5000
 Autor
-Yessika Guilarte
+Yessika Guilarte](https://github.com/guilarte-yessika/taskflow-ia.git)
